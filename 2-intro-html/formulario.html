@@ -8,8 +8,8 @@
 <body>
     <h1>Formulario</h1>
     <form>
-       <label>First name</label>
-       <input type="text" id="first-name" />
+       <label for="first-name">Nombre</label>
+       <input type="text" id="first-name" required/>
 
        <br/>
 
@@ -19,7 +19,7 @@
        <br/>
 
        <label for="email">Correo</label>
-       <input type="text" id="name" />
+       <input type="email" id="email  " required/>
 
        <br/>
 
@@ -33,12 +33,56 @@
 
        <br/>
 
-       <label for="avatar">Agrega tu fot de perfil:</label>
+       <label for="avatar">Agrega tu foto de perfil:</label>
        <input type="file" id="avatar" accept="image/png, image/jpeg"/>
 
+       <br/>
+
+       <fieldset>
+        <legend>Cuales son tus hobbies</legend>
+
+        <input type="checkbox" id="sports" checked/>
+        <label for="sports">Deportes</label>
+
+        <input type="checkbox" id="knit" />
+        <label for="knit">tejer</label>
+        
+        <input type="checkbox" id="read" />
+        <label for="read">leer</label>
+        
+        <input type="checkbox" id="play-instrument" />
+        <label for="play-instrument">tocar un instrumento</label>
+        
+        <input type="checkbox" id="listen-music" />
+        <label for="listen-music">Escuchar musica</label>
+
+       </fieldset>
        
+       <fieldset>
+        <legend>Seleccona tu grado actual escolar</legend>
+
+        <input type="radio" id="primary" name="school-grade"/>
+        <label for="primary">Primaria</label>
+
+        <input type="radio" id="secondary" name="school-grade"/>
+        <label for="secondary">Secundaria</label>
+
+        <input type="radio" id="high-school" name="school-grade" checked/>
+        <label for="high-school">Preparatoria</label>
+
+        <input type="radio" id="university" name="school-grade"/>
+        <label for="university">Universidad</label>
+
+       </fieldset>
+
+       <input type="range"/>
+       <input type="color"/>
+       <input type="date"/>
+       <input type="datetime-local"/>
        <br/>
        <br/>
+       <button>Registrarse</button>
+       
 
 
 
