@@ -1,0 +1,48 @@
+body {
+    /* background: gold; */
+    /* es un cmoentario en css; */
+    font-family: sans-serif;
+}
+
+p {
+    /*background: dodgerblue;*/
+    color: blueviolet;
+}
+
+.parrafo-bonis {
+    background-color: rgb(63, 15, 158);
+    font-weight: bold;
+}
+
+#parrafo-unico {
+    color: hotpink;
+    font-size: 22px;
+
+}
+
+a {
+    color: cadetblue;
+}
+
+a{
+    color: blue;
+}
+
+/*main {
+    color: grey;
+}*/
+
+
+
+
+
+/*p
+{
+  jwdbwqdjw
+}
+
+p{
+  kankjnsdajks
+}
+
+p {kwhkjhwsqbjk}*/

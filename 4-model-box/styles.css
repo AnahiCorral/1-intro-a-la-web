@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(197, 193, 178);
+}
+
+/*h1 son etiquetas tipo bloque*/
+h1{
+    background-color: lavender;
+    /*box model*/
+    /*padding: 20px;*/
+    padding-block-start: 1px;
+    padding-block-end: 16px;
+
+    padding-inline-start: 50px;
+    padding-inline-end: 20px;
+
+/*se pueden poner por separado o juntos*/
+/*shorthand*/
+    padding-block: 1px 16px;
+    padding-inline: 50px 20 px;
+/*acpeta tres parametrso*/
+    border: dotted 5px darkblue ;
+
+
+    margin-inline-start: 50px;
+    margin-block-end: 5px ;
+
+    /*a los lados*/
+    margin-inline-start: 30px ;
+    margin-inline-end: 10px;
+
+    /*shorthand*/
+    margin-block: 50px 5px;
+    margin-inline: 30px 10px;
+
+    margin-block: 10px;
+    margin-inline: 20px;
+
+    margin: 16px;
+}
+
+p{
+    background-color: aliceblue;
+    padding: 16px;
+    border: 5px dashed lemonchiffon;
+}
+
+#parrafo1 {
+    /*background-color: aquamarine;*/
+    background-clip:  border-box;
+    /*esto cambia el contenido*/
+    width: 200px;
+    height: 300px;
+}
+
+#parrafo2 {
+    /*background-color: aquamarine;*/
+    background-clip: padding-box;
+}
+
+#parrafo3 {
+    /*background-color: aquamarine;*/
+    background-clip: content-box;
+}
+
+h2{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(77,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-clip:  text;
+    color: transparent;
+
+}
+
+span {
+    color: yellow;
+    background-color: black;
+    border: solid 3px hotpink;
+    padding: 5px;
+    /*border: solid indianred;*/
+    margin: 16px;
+    width: 500px;
+    height: 50px;
+    /*display: inline-block;*/
+    display: block;
+}
+
+
+
